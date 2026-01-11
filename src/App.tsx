@@ -21,6 +21,9 @@ function App() {
   const overlayRef = useRef<OverlayPanel>(null);
   const [selectCount, setSelectCount] = useState<number>(0);
   // const [totalSelectionCount, setTotalSelectionCount] = useState<number>(0);
+  const [selectionStartPage, setSelectionStartPage] = useState<number | null>(
+    null
+  );
 
   const selectedRows = rows.filter((row) => selectedIds.has(row.id));
 
@@ -35,7 +38,11 @@ function App() {
         setRows(res.data.data);
         setTotalArtwork(res.data.pagination.total);
 
-        if (remainingSelection > 0) {
+        if (
+          remainingSelection > 0 &&
+          selectionStartPage !== null &&
+          page === selectionStartPage + 1
+        ) {
           const newSet = new Set(selectedIds);
           let remaining = remainingSelection;
 
@@ -49,6 +56,7 @@ function App() {
 
           setSelectedIds(newSet);
           setRemainingSelection(remaining);
+          setSelectionStartPage(page);
         }
       } catch (err) {
         console.log(err);
@@ -88,6 +96,7 @@ function App() {
 
     setRemainingSelection(remaining);
     setSelectedIds(newSet);
+    setSelectionStartPage(page);
     // setTotalSelectionCount(selectCount);
     overlayRef.current?.hide();
     setSelectCount(0);
