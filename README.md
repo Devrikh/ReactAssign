@@ -87,5 +87,5 @@ This project fully complies with the internship assignment requirements:
 - **Vercel is not recommended** due to restricted access in submissions.
 
 ## URL
-
+- https://growmeorganicreactassigndevrikh.netlify.app/
 
