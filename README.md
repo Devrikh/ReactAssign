@@ -82,10 +82,6 @@ This project fully complies with the internship assignment requirements:
 
 **Note:** Remaining overlay selection is applied only when the user navigates to the next page, as required.
 
-## Deployment
-- Can be deployed on **Netlify**, **Cloudflare Pages**, or any static hosting provider.
-- **Vercel is not recommended** due to restricted access in submissions.
-
 ## URL
 - https://growmeorganicreactassigndevrikh.netlify.app/
 
