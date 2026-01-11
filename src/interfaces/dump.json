@@ -1,0 +1,196 @@
+{
+  "pagination": {
+    "total": 130488,
+    "limit": 12,
+    "offset": 0,
+    "total_pages": 10874,
+    "current_page": 1,
+    "next_url": "https://api.artic.edu/api/v1/artworks?page=2"
+  },
+  "data": [
+    {
+      "id": 71,
+      "api_model": "artworks",
+      "api_link": "https://api.artic.edu/api/v1/artworks/71",
+      "is_boosted": false,
+      "title": "Old Oaks at Bas Bréau",
+      "alt_titles": null,
+      "thumbnail": {
+        "lqip": "data:image/gif;base64,R0lGODlhBAAFAPQAAEVCO0pHQFJPSFRRSVVTTFdTTFpXT1xZTl1ZUV5bU19cUWtnWG1qXG5qXW9rXXFtX3l0ZHZyaYJ+bZGNfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAAAAAAALAAAAAAEAAUAAAURYPIowQAtADFJTeEwRyQYSAgAOw==",
+        "width": 2523,
+        "height": 3000,
+        "alt_text": "Etching of four tall oak trees standing together amid thick, lush ground cover and trees with dense foliage."
+      },
+      "main_reference_number": "1887.455",
+      "has_not_been_viewed_much": false,
+      "boost_rank": null,
+      "date_start": 1860,
+      "date_end": 1870,
+      "date_display": "c. 1865",
+      "date_qualifier_title": "",
+      "date_qualifier_id": null,
+      "artist_display": "Adolphe Martial Potémont\nFrench, 1828-1883",
+      "place_of_origin": "France",
+      "description": null,
+      "short_description": null,
+      "dimensions": "Image: 29.6 × 24.7 cm (11 11/16 × 9 3/4 in.); Plate: 31 × 26 cm (12 1/4 × 10 1/4 in.); Primary support: 30.3 × 25.2 cm (11 15/16 × 9 15/16 in.); Secondary support: 41.8 × 33.4 cm (16 1/2 × 13 3/16 in.)",
+      "dimensions_detail": [
+        {
+          "depth": null,
+          "width": 24,
+          "height": 29,
+          "diameter": null,
+          "clarification": "Image"
+        },
+        {
+          "depth": null,
+          "width": 26,
+          "height": 31,
+          "diameter": null,
+          "clarification": "Plate"
+        },
+        {
+          "depth": null,
+          "width": 25,
+          "height": 30,
+          "diameter": null,
+          "clarification": "Primary support"
+        },
+        {
+          "depth": null,
+          "width": 33,
+          "height": 41,
+          "diameter": null,
+          "clarification": "Secondary support"
+        }
+      ],
+      "medium_display": "Etching in black ink on cream Asian paper mounted overall to ivory wove paper (chine colle)",
+      "inscriptions": null,
+      "credit_line": "Elizabeth Hammond Stickney Collection",
+      "catalogue_display": "\u003Cp\u003EBeraldi 23\u003C/p\u003E",
+      "publication_history": null,
+      "exhibition_history": null,
+      "provenance_text": null,
+      "edition": null,
+      "publishing_verification_level": "Web Basic",
+      "internal_department_id": 3,
+      "fiscal_year": null,
+      "fiscal_year_deaccession": null,
+      "is_public_domain": true,
+      "is_zoomable": true,
+      "max_zoom_window_size": -1,
+      "copyright_notice": null,
+      "has_multimedia_resources": false,
+      "has_educational_resources": false,
+      "has_advanced_imaging": false,
+      "colorfulness": 12.6973,
+      "color": {
+        "h": 46,
+        "l": 49,
+        "s": 10,
+        "percentage": 0.0337403484845256,
+        "population": 285
+      },
+      "latitude": null,
+      "longitude": null,
+      "latlon": null,
+      "is_on_view": false,
+      "on_loan_display": "\u003Cp\u003EOn loan to Sterling and Francine Clark Art Institute in Williamstown for \u003Ci\u003EShadow Visionaries: French Artists Against the Current, 1840–1870\u003C/i\u003E\u003C/p\u003E",
+      "gallery_title": null,
+      "gallery_id": null,
+      "nomisma_id": null,
+      "artwork_type_title": "Print",
+      "artwork_type_id": 18,
+      "department_title": "Prints and Drawings",
+      "department_id": "PC-13",
+      "artist_id": 36250,
+      "artist_title": "Adolphe Martial Potémont",
+      "alt_artist_ids": [],
+      "artist_ids": [36250],
+      "artist_titles": [
+        "Adolphe Martial Potémont"
+      ],
+      "category_ids": [
+        "PC-13"
+      ],
+      "category_titles": [
+        "Prints and Drawings"
+      ],
+      "term_titles": [
+        "etching",
+        "print",
+        "prints and drawing"
+      ],
+      "style_id": null,
+      "style_title": null,
+      "alt_style_ids": [],
+      "style_ids": [],
+      "style_titles": [],
+      "classification_id": "TM-18",
+      "classification_title": "etching",
+      "alt_classification_ids": [
+        "TM-17",
+        "TM-4"
+      ],
+      "classification_ids": [
+        "TM-18",
+        "TM-17",
+        "TM-4"
+      ],
+      "classification_titles": [
+        "etching",
+        "print",
+        "prints and drawing"
+      ],
+      "subject_id": null,
+      "alt_subject_ids": [],
+      "subject_ids": [],
+      "subject_titles": [],
+      "material_id": null,
+      "alt_material_ids": [],
+      "material_ids": [],
+      "material_titles": [],
+      "technique_id": null,
+      "alt_technique_ids": [],
+      "technique_ids": [],
+      "technique_titles": [],
+      "theme_titles": [],
+      "image_id": "1ce19018-a280-96de-7f63-6547f8de2395",
+      "alt_image_ids": [],
+      "document_ids": [],
+      "sound_ids": [],
+      "video_ids": [],
+      "text_ids": [],
+      "section_ids": [],
+      "section_titles": [],
+      "site_ids": [],
+      "suggest_autocomplete_all": [
+        {
+          "input": [
+            "1887.455"
+          ],
+          "contexts": {
+            "groupings": [
+              "accession"
+            ]
+          }
+        },
+        {
+          "input": [
+            "Old Oaks at Bas Bréau"
+          ],
+          "weight": 80488,
+          "contexts": {
+            "groupings": [
+              "title"
+            ]
+          }
+        }
+      ],
+      "source_updated_at": "2026-01-11T00:30:13-06:00",
+      "updated_at": "2026-01-11T02:27:41-06:00",
+      "timestamp": "2026-01-11T05:01:37-06:00"
+    }
+  ]
+  
+}
