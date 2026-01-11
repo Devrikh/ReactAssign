@@ -20,7 +20,6 @@ function App() {
 
   const overlayRef = useRef<OverlayPanel>(null);
   const [selectCount, setSelectCount] = useState<number>(0);
-  // const [totalSelectionCount, setTotalSelectionCount] = useState<number>(0);
   const [selectionStartPage, setSelectionStartPage] = useState<number | null>(
     null
   );
@@ -97,7 +96,6 @@ function App() {
     setRemainingSelection(remaining);
     setSelectedIds(newSet);
     setSelectionStartPage(page);
-    // setTotalSelectionCount(selectCount);
     overlayRef.current?.hide();
     setSelectCount(0);
   };
